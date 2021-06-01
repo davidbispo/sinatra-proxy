@@ -19,8 +19,11 @@ GEM
       ruby2_keywords (~> 0.0.1)
     netrc (0.11.0)
     nio4r (2.5.7)
+    nokogiri (1.11.7-x86_64-linux)
+      racc (~> 1.4)
     puma (5.3.2)
       nio4r (~> 2.0)
+    racc (1.5.2)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
@@ -73,6 +76,7 @@ DEPENDENCIES
   coderay
   curb
   json
+  nokogiri
   puma
   rack-test
   rest-client
